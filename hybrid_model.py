@@ -1,16 +1,13 @@
-
 import joblib
 import pandas as pd
 from first_principles_model import first_principles_distillation_model
 
 def hybrid_distillation_model(operating_conditions, alpha=0.5):
     # Load the trained Random Forest model
-    rf_model = joblib.load(
-        '/home/ubuntu/random_forest_model.joblib'
-    )
+    rf_model = joblib.load('random_forest_model.joblib')
 
     # Load feature names used during training
-    with open('/home/ubuntu/rf_model_features.txt', 'r') as f:
+    with open('rf_model_features.txt', 'r') as f:
         rf_features = [line.strip() for line in f]
 
     # Prepare input for Random Forest model

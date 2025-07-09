@@ -1,4 +1,3 @@
-
 import numpy as np
 
 def calculate_vapor_pressure(temperature, antoine_A, antoine_B, antoine_C):

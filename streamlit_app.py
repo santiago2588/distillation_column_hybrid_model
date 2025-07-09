@@ -66,7 +66,7 @@ st.markdown("""
 def load_data():
     """Load the distillation column dataset"""
     try:
-        df = pd.read_excel('/home/ubuntu/upload/DistillationColumnDataset.xlsx')
+        df = pd.read_excel('DistillationColumnDataset.xlsx')
         return df
     except Exception as e:
         st.error(f"Error loading data: {str(e)}")
@@ -76,8 +76,8 @@ def load_data():
 def load_models():
     """Load the trained Random Forest model"""
     try:
-        rf_model = joblib.load('/home/ubuntu/random_forest_model.joblib')
-        with open('/home/ubuntu/rf_model_features.txt', 'r') as f:
+        rf_model = joblib.load('random_forest_model.joblib')
+        with open('rf_model_features.txt', 'r') as f:
             rf_features = [line.strip() for line in f]
         return rf_model, rf_features
     except Exception as e:

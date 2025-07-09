@@ -6,7 +6,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 import joblib
 
 # Load the dataset
-file_path = '/home/ubuntu/upload/DistillationColumnDataset.xlsx'
+file_path = 'DistillationColumnDataset.xlsx'
 df = pd.read_excel(file_path)
 
 # Define features (X) and targets (y)
@@ -32,11 +32,11 @@ print(f'Mean Squared Error: {mse}')
 print(f'R-squared: {r2}')
 
 # Save the trained model
-joblib.dump(rf_model, '/home/ubuntu/random_forest_model.joblib')
+joblib.dump(rf_model, 'random_forest_model.joblib')
 print('Random Forest model trained and saved as random_forest_model.joblib')
 
 # Save feature names for later use in the notebook
-with open('/home/ubuntu/rf_model_features.txt', 'w') as f:
+with open('rf_model_features.txt', 'w') as f:
     for feature in X.columns:
         f.write(f'{feature}\n')
 print('Feature names saved to rf_model_features.txt')

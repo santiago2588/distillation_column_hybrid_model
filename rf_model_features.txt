@@ -1,0 +1,14 @@
+Liquid Percentage in Condenser
+Condenser Pressure
+Liquid Percentage in Reboiler
+Mass Flow Rate in Feed Flow
+Mass Flow Rate in Top Outlet Stream
+Net Mass Flow in main tower
+Mole Fraction HX at reboiler
+HX Mole Fraction in Top Outler Stream
+Feed Mole Fraction
+Feed Tray Temperature
+Main Tower Pressure
+Bottom Tower Pressure
+Top Tower Pressure
+Reflux Ratio

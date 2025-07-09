@@ -1,6 +1,6 @@
 import pandas as pd
 
-file_path = '/home/ubuntu/upload/DistillationColumnDataset.xlsx'
+file_path = 'DistillationColumnDataset.xlsx'
 df = pd.read_excel(file_path)
 
 print('Dataset Head:')
