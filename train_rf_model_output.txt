@@ -1,0 +1,4 @@
+Mean Squared Error: 4.7424715047811165e-07
+R-squared: 0.9931051110269288
+Random Forest model trained and saved as random_forest_model.joblib
+Feature names saved to rf_model_features.txt

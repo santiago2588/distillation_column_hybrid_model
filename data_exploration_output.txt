@@ -1,0 +1,48 @@
+Dataset Head:
+   Time  Liquid Percentage in Condenser  ...  MoleFractionTX  MoleFractionHX
+0     0                       49.718959  ...        0.966281        0.033719
+1    30                       49.561845  ...        0.965788        0.034212
+2    60                       50.189365  ...        0.965758        0.034242
+3    90                       50.183496  ...        0.965756        0.034244
+4   120                       50.428793  ...        0.965784        0.034216
+
+[5 rows x 17 columns]
+
+Dataset Info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 961 entries, 0 to 960
+Data columns (total 17 columns):
+ #   Column                                 Non-Null Count  Dtype  
+---  ------                                 --------------  -----  
+ 0   Time                                   961 non-null    int64  
+ 1   Liquid Percentage in Condenser         961 non-null    float64
+ 2   Condenser Pressure                     961 non-null    float64
+ 3   Liquid Percentage in Reboiler          961 non-null    float64
+ 4   Mass Flow Rate in Feed Flow            961 non-null    float64
+ 5   Mass Flow Rate in Top Outlet Stream    961 non-null    float64
+ 6   Net Mass Flow in main tower            961 non-null    float64
+ 7   Mole Fraction HX at reboiler           961 non-null    float64
+ 8   HX Mole Fraction in Top Outler Stream  961 non-null    float64
+ 9   Feed Mole Fraction                     961 non-null    float64
+ 10  Feed Tray Temperature                  961 non-null    float64
+ 11  Main Tower Pressure                    961 non-null    float64
+ 12  Bottom Tower Pressure                  961 non-null    float64
+ 13  Top Tower Pressure                     961 non-null    float64
+ 14  Reflux Ratio                           961 non-null    float64
+ 15  MoleFractionTX                         961 non-null    float64
+ 16  MoleFractionHX                         961 non-null    float64
+dtypes: float64(16), int64(1)
+memory usage: 127.8 KB
+
+Dataset Description:
+               Time  ...  MoleFractionHX
+count    961.000000  ...      961.000000
+mean   14400.000000  ...        0.035985
+std     8326.833132  ...        0.008473
+min        0.000000  ...        0.022401
+25%     7200.000000  ...        0.028810
+50%    14400.000000  ...        0.034098
+75%    21600.000000  ...        0.042713
+max    28800.000000  ...        0.049115
+
+[8 rows x 17 columns]

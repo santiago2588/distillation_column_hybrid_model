@@ -1,0 +1,2 @@
+Hybrid Predicted MoleFractionTX: 0.7408735450000001
+Hybrid Predicted MoleFractionHX: 0.259126482
