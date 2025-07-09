@@ -72,13 +72,13 @@ def first_principles_distillation_model(feed_mole_fraction, reflux_ratio, num_st
     return predicted_mole_fraction_TX, predicted_mole_fraction_HX
 
 # Example usage (will be integrated into the notebook later)
-# feed_mf = 0.5
-# rr = 2.0
-# stages = 10
-# cond_p = 101.3
-# reboil_p = 105.0
-# feed_t = 100.0
-# tx, hx = first_principles_distillation_model(feed_mf, rr, stages, cond_p, reboil_p, feed_t)
-# print(f"Predicted MoleFractionTX: {tx}, Predicted MoleFractionHX: {hx}")
+feed_mf = 0.5
+rr = 2.0
+stages = 10
+cond_p = 101.3
+reboil_p = 105.0
+feed_t = 100.0
+tx, hx = first_principles_distillation_model(feed_mf, rr, stages, cond_p, reboil_p, feed_t)
+print(f"Predicted MoleFractionTX: {tx}, Predicted MoleFractionHX: {hx}")
 
 

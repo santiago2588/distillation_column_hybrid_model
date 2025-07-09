@@ -57,35 +57,6 @@ def hybrid_distillation_model(operating_conditions, alpha=0.5):
 
     return final_mole_fraction_tx, final_mole_fraction_hx
 
-
-# Example usage (for testing purposes)
-# if __name__ == "__main__":
-#     # Create a dummy operating_conditions dictionary matching the features used in RF model
-#     # This needs to be populated with realistic values from your dataset description
-#     dummy_operating_conditions = {
-#         'Liquid Percentage in Condenser': 50.0,
-#         'Condenser Pressure': 100.0,
-#         'Liquid Percentage in Reboiler': 50.0,
-#         'Mass Flow Rate in Feed Flow': 1000.0,
-#         'Mass Flow Rate in Top Outlet Stream': 500.0,
-#         'Net Mass Flow in main tower': 500.0,
-#         'Mole Fraction HX at reboiler': 0.05,
-#         'HX Mole Fraction in Top Outler Stream': 0.02,
-#         'Feed Mole Fraction': 0.5,
-#         'Feed Tray Temperature': 350.0,
-#         'Main Tower Pressure': 100.0,
-#         'Bottom Tower Pressure': 102.0,
-#         'Top Tower Pressure': 98.0,
-#         'Reflux Ratio': 2.5
-#     }
-
-#     predicted_tx, predicted_hx = hybrid_distillation_model(dummy_operating_conditions)
-#     print(f"Hybrid Predicted MoleFractionTX: {predicted_tx}")
-#     print(f"Hybrid Predicted MoleFractionHX: {predicted_hx}")
-
-
-
-
 if __name__ == "__main__":
     # Create a dummy operating_conditions dictionary matching the features used in RF model
     # This needs to be populated with realistic values from your dataset description
